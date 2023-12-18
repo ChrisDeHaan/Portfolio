@@ -1,0 +1,11 @@
+:root {
+    --dark-purple: #291e32;
+    --light-purple: #5941A9;
+    --pale-purple: #E5D4ED;
+    --slate-blue: #6D72C3;
+    --grey: #514F59;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}

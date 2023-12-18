@@ -1,0 +1,27 @@
+body {
+    background: linear-gradient(90deg, var(--dark-purple),var(--light-purple));
+    color: white;
+    overflow-x: hidden;
+}
+
+.container-main {
+    padding: 3%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.container-project1, .container-project2 {
+    display: flex;
+    flex-flow: row;
+}
+
+@media only screen and (max-width: 900px) {
+    .container-project1{
+        flex-flow: column;
+    }
+
+    .container-project2 {
+        flex-flow: column-reverse;
+    }
+}

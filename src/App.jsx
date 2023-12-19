@@ -11,10 +11,8 @@ function App() {
     <>
       <div className='container-main'>
         <header className='max-w'>nav links</header>
-        <div className='max-w'>
-          <AboutMe />
-        </div>
-        <h1 className='max-w'>Proficiencies</h1>
+        <AboutMe />
+        <h1 className='max-w title-text'>Proficiencies</h1>
         <SpacerTop />
         <div className='cstm-bg'>
           <Projects1 />

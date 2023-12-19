@@ -9,3 +9,15 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
+
+body {
+    background: linear-gradient(90deg, var(--dark-purple),var(--light-purple));
+    color: white;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.max-w {
+    max-width: 1440px;
+}

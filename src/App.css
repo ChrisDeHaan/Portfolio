@@ -1,23 +1,11 @@
-body {
-    background: linear-gradient(90deg, var(--dark-purple),var(--light-purple));
-    color: white;
-    overflow-x: hidden;
-    display: flex;
-    justify-content: center;
-}
-
 section {
-    margin: 10%;
     display: flex;
     justify-content: center;
-}
-
-.max-w {
-    max-width: 1440px;
 }
 
 .title-text {
-    font-size: 100px;
+    font-size: 75px;
+    font-style: italic;
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: var(--dark-purple);
     text-shadow: 10px 10px 5px var(--dark-purple);
@@ -31,10 +19,8 @@ section {
 
 .container-project1, .container-project2 {
     display: flex;
-    flex-flow: row;
-    margin-bottom: 20px;
-    justify-content: center;
     align-items: center;
+    margin: 5% 10% 5% 10%;
 }
 
 .proj-h {
@@ -45,6 +31,7 @@ section {
 .text-container, .img-container {
     margin: 20px;
     width: 100%;
+    font-size: large;;
 }
 
 .img-container {
@@ -59,11 +46,11 @@ section {
 }
 
 .img-cstm1 {
-    box-shadow: 12px 20px 20px var(--slate-blue); 
+    box-shadow: 12px 20px 20px var(--light-purple); 
 }
 
 .img-cstm2 {
-    box-shadow: -12px 20px 20px var(--slate-blue); 
+    box-shadow: -12px 20px 20px var(--light-purple); 
 }
 
 .cstm-bg {
@@ -72,7 +59,7 @@ section {
 
 @media only screen and (max-width: 900px) {
     .container-project1, .container-project2 {
-        margin-bottom: 10px;
+        margin: 15% 10% 15% 10%;
     }
 
     .container-project1 {
@@ -84,7 +71,7 @@ section {
     }
 
     .img-cstm2 {
-        box-shadow: 12px 20px 20px var(--slate-blue); 
+        box-shadow: 12px 20px 20px var(--light-purple); 
     }
 
     .portfolio-title {

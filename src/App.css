@@ -6,12 +6,24 @@ body {
     justify-content: center;
 }
 
+section {
+    margin: 10%;
+    display: flex;
+    justify-content: center;
+}
+
 .max-w {
     max-width: 1440px;
 }
 
+.title-text {
+    font-size: 100px;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: var(--dark-purple);
+    text-shadow: 10px 10px 5px var(--dark-purple);
+}
+
 .container-main {
-    padding: 5%;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -20,7 +32,7 @@ body {
 .container-project1, .container-project2 {
     display: flex;
     flex-flow: row;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
     justify-content: center;
     align-items: center;
 }
@@ -40,16 +52,27 @@ body {
     justify-content: center;
 }
 
-.img-cstm {
+.img-cstm1, .img-cstm2 {
     border: solid 3px var(--slate-blue);
     border-radius: 5%;
-    box-shadow: -20px 20px var(--dark-purple); 
     width: 100%;
+}
+
+.img-cstm1 {
+    box-shadow: 12px 20px 20px var(--slate-blue); 
+}
+
+.img-cstm2 {
+    box-shadow: -12px 20px 20px var(--slate-blue); 
+}
+
+.cstm-bg {
+    background-color: var(--dark-purple);
 }
 
 @media only screen and (max-width: 900px) {
     .container-project1, .container-project2 {
-        margin-bottom: 50px;
+        margin-bottom: 10px;
     }
 
     .container-project1 {
@@ -58,5 +81,21 @@ body {
 
     .container-project2 {
         flex-flow: column-reverse;
+    }
+
+    .img-cstm2 {
+        box-shadow: 12px 20px 20px var(--slate-blue); 
+    }
+
+    .portfolio-title {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .title-text {
+        -webkit-text-stroke-width: 2px;
+        text-shadow: 5px 5px 5px var(--dark-purple);
+        font-size: 50px;
     }
 }

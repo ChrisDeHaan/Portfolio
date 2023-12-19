@@ -2,10 +2,9 @@ export default function Projects2() {
     return (
         <>
             <section>
-
-                <div className="container-project2">
+                <div className="container-project2 max-w">
                     <div className='img-container'>
-                        <img src='https://placehold.co/600x400' className="img-cstm"></img>
+                        <img src='https://placehold.co/600x400' className="img-cstm2"></img>
                     </div>
                     <div className="text-container">
                         <h2 className='proj-h'>Project Name</h2>

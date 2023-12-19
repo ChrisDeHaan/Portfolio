@@ -3,6 +3,7 @@ import './App.css'
 
 import { Projects1, Projects2 } from './components/Projects/'
 import { AboutMe } from './components/AboutMe'
+import { SpacerTop, SpacerBtm } from './components/Spacer'
 
 function App() {
 
@@ -14,13 +15,14 @@ function App() {
           <AboutMe />
         </div>
         <h1 className='max-w'>Proficiencies</h1>
-        <h1 className='max-w'>Portfolio</h1>
-        <div className='max-w'>
+        <SpacerTop />
+        <div className='cstm-bg'>
           <Projects1 />
           <Projects2 />
           <Projects1 />
           <Projects2 />
         </div>
+        <SpacerBtm />
         <h1 className='max-w'>Contact Me</h1>
       </div>
     </>
